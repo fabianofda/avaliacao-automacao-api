@@ -1,0 +1,25 @@
+{
+  "name": "jsonplaceholder-local-api",
+  "version": "1.0.0",
+  "description": "API local para testes com Postman usando json-server",
+  "scripts": {
+    "start": "node start.js",
+    "test": "newman run ../postman-collections/JSONPlaceholder_API.postman_collection.postman_collection.json -e ../postman-collections/dev.postman_environment.json --reporters cli,junit --reporter-junit-export ../tests/newman/results/junit-report.xml",
+    "test:local": "concurrently --kill-others \"node start.js\" \"wait-on http://localhost:3003 && npm run test\""
+  },
+  "keywords": [
+    "json-server",
+    "api",
+    "mock"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "newman": "^6.1.0",
+    "concurrently": "^8.2.2",
+    "wait-on": "^7.2.0"
+  }
+}
+
+

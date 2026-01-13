@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production/Test outputs
+test-results/
+junit-report.xml
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Postman local backups
+*.postman_backup
