@@ -16,7 +16,7 @@ target/
 
 # Test Results
 tests/java/target/
-tests/*/results/
+tests/java/*/results/
 
 # Environment variables
 .env
