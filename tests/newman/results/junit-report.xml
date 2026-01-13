@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="JSONPlaceholder_API.postman_collection" tests="3" time="0.000">
+  <testsuite name="GET /posts" id="06aee8f6-81f0-45c9-8ba8-d486adae4508" timestamp="2026-01-13T20:12:27.164Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3003
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+  </testsuite>
+  <testsuite name="GET /posts/{id}" id="89bd98b8-7a14-4d90-933e-75c8e2f137f1" timestamp="2026-01-13T20:12:27.164Z" tests="4" failures="4" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3003
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+
+---
+]]></system-err>
+    <testcase name="Status code is 200" time="0.000" classname="GetPostsId">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 79ad4fdb-3f7e-4b0d-aeb0-4ee60dd5ffb8.]]>
+        <![CDATA[Collection name: JSONPlaceholder_API.postman_collection.]]>
+        <![CDATA[Request name: GET /posts/{id}.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has required fields" time="0.000" classname="GetPostsId">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 79ad4fdb-3f7e-4b0d-aeb0-4ee60dd5ffb8.]]>
+        <![CDATA[Collection name: JSONPlaceholder_API.postman_collection.]]>
+        <![CDATA[Request name: GET /posts/{id}.]]>
+        <![CDATA[Test description: Response has required fields.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Field types are correct" time="0.000" classname="GetPostsId">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 79ad4fdb-3f7e-4b0d-aeb0-4ee60dd5ffb8.]]>
+        <![CDATA[Collection name: JSONPlaceholder_API.postman_collection.]]>
+        <![CDATA[Request name: GET /posts/{id}.]]>
+        <![CDATA[Test description: Field types are correct.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response id matches postId environment variable" time="0.000" classname="GetPostsId">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: 79ad4fdb-3f7e-4b0d-aeb0-4ee60dd5ffb8.]]>
+        <![CDATA[Collection name: JSONPlaceholder_API.postman_collection.]]>
+        <![CDATA[Request name: GET /posts/{id}.]]>
+        <![CDATA[Test description: Response id matches postId environment variable.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="GET /users" id="244c0047-cf03-420b-8de4-6fabc1e514ca" timestamp="2026-01-13T20:12:27.164Z" tests="0" failures="0" errors="2" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: connect ECONNREFUSED 127.0.0.1:3003
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1634:16)
+
+---
+testScriptError: "undefined" is not valid JSON
+---
+]]></system-err>
+  </testsuite>
+</testsuites>
