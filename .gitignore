@@ -15,8 +15,8 @@ target/
 .settings/
 
 # Test Results
+tests/java/target/
 tests/*/results/
-*.xml
 
 # Environment variables
 .env
